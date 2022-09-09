@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank Balance</title>
+</head>
+<body>
+    <h1>Bank Balance</h1>
+    <p id="main-paragraph">Balance: <span id="balance"></span></p>
+    <form id="balanceForm">
+        <p>
+            <label for="amount">Amount:</label>
+            <input type="number" name="amount" id="amount" min="0.01" step="0.01" required>
+        </p>
+        <p>
+            <button type="submit" id="deposit" name="deposit">Deposit</button>
+            <button type="submit" id="withdraw" name="withdraw">Withdraw</button>
+        </p>
+    </form>
+    <script src="main.js"></script>    
+</body>
+</html>

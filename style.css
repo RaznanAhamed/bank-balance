@@ -1,0 +1,104 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(./img/etienne-martin-2_K82gx9Uk8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+    background-attachment: fixed;
+}
+
+label, button, input {
+    width: 100px;
+}
+
+.overdrawn {
+    color: red;
+}
+
+h1 {
+    width: 28%;
+    margin: auto;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+#main-paragraph {
+    width: 25%;
+    margin: auto;
+    padding: 18px;
+    font-size: 1.8em;
+}
+
+
+form {
+    width: 40%;
+    background-color: rgb(78, 79, 79, 0.8);
+    box-shadow: 5px 10px 15px;
+    padding: 25px;
+    margin: auto;
+}
+
+label {
+    font-size: 25px;
+    margin-left: 25%;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    margin-left: 15%;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-weight: 5px;
+    
+}
+
+button:hover {
+    background-color: rgb(247, 189, 29);
+}
+
+input[type=number]:focus {
+    border: 3px solid rgb(247, 189, 29);
+    
+}
+
+@media only screen and (max-width: 1000px){
+    *{
+        overflow-x: hidden;
+    }
+    body {
+        background-size: auto 100%;
+    }
+    label {
+        width: 80%;
+        margin: auto;
+    }
+    input{
+        width: 80%;
+        margin: auto;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+    h1{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #main-paragraph{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
